@@ -54,3 +54,12 @@ TC-02                 Verify successful registration                  1. Open Re
 | Missing password field       | 400 Bad Request                    | "Password is required" |
 | Email already exists         | 409 Conflict                       | "Email already in use" |
 
+## Phase 4: Automation (Conceptual)
+
+### Automation Logic: User Registration
+To automate **TC-02** (Successful Registration), the script will follow these logic steps:
+1. **Navigate:** `browser.get("https://healthcare-portal.com/register")`
+2. **Input Email:** Find element by ID `email-field` and type `test@care.com`.
+3. **Input Password:** Find element by ID `password-field` and type `Pass1234#`.
+4. **Click:** Find element by ID `register-btn` and click.
+5. **Verify:** Check if the URL changes to `/dashboard` or if a success message appears.
