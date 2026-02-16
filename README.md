@@ -70,3 +70,16 @@ To automate **TC-02** (Successful Registration), the script will follow these lo
 3. **Input Password:** Find element by ID `password-field` and type `Pass1234#`.
 4. **Click:** Find element by ID `register-btn` and click.
 5. **Verify:** Check if the URL changes to `/dashboard` or if a success message appears.
+
+## Phase 5: User Acceptance Testing (UAT).
+
+Imagine a Doctor finishes a long shift and needs to review a patient's lab results. If the system is too complicated, they might miss critical information.
+
+UAT Script: Doctor Reviews Lab Report
+
+Step      Action                                           Business Requirement,                             Pass/Fail
+1,      Log in with Doctor Credentials              Ensure HIPAA-compliant secure access.                    [ ]
+2,      "Search for Patient ""John Doe"""           Doctor must find the patient in under 5 seconds.         [ ]
+3,      "Click on ""Latest Lab Results"""           Results should be displayed in chronological order.      [ ]
+4,      "Click ""Download PDF"""                    The report must be legible for printing.                 [ ]
+5,      "Mark report as ""Reviewed"""               System must timestamp when the doctor saw it.            [ ]
