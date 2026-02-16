@@ -27,11 +27,12 @@ This project demonstrates end-to-end Quality Assurance for a Healthcare Patient 
 ## Phase 2: Bug Reporting
 
 A standard bug report includes these key fields:
-|**Title**: |A concise summary of the problem.|
-|**Severity**: |How much it impacts the business (Critical, Major, Minor).|
+|:---                    |:--
+|**Title**:              |A concise summary of the problem.|
+|**Severity**:           |How much it impacts the business (Critical, Major, Minor).|
 |**Steps to Reproduce**: |The exact clicks needed to see the bug.|
-|**Actual Result**: |What currently happens.|
-|**Expected Result**: |What should happen.|
+|**Actual Result**:      |What currently happens.|
+|**Expected Result**:    |What should happen.|
 
 ### Bug Report: [BUG-001] White screen on successful registration
 **Severity:** Critical  
