@@ -77,9 +77,12 @@ Imagine a Doctor finishes a long shift and needs to review a patient's lab resul
 
 UAT Script: Doctor Reviews Lab Report
 
-|Step      Action                                   |        Business Requirement,                           |  Pass/Fail|
-|1,      Log in with Doctor Credentials             | Ensure HIPAA-compliant secure access.                  |  [ ]|
-|2,      "Search for Patient ""John Doe"""          | Doctor must find the patient in under 5 seconds.       |  [ ]|
-|3,      "Click on ""Latest Lab Results"""          | Results should be displayed in chronological order.    |  [ ]|
-|4,      "Click ""Download PDF"""                   | The report must be legible for printing.               |  [ ]|
-|5,      "Mark report as ""Reviewed"""              | System must timestamp when the doctor saw it.          |  [ ]|
+|Step   |Action                                    | Business Requirement,                                  |  Pass/Fail|
+|:---   |:---                                      |:---                                                    |:---
+|1      |Log in with Doctor Credentials             | Ensure HIPAA-compliant secure access.                  |  [ ]|
+|2      |"Search for Patient ""John Doe"""          | Doctor must find the patient in under 5 seconds.       |  [ ]|
+|3      |"Click on ""Latest Lab Results"""          | Results should be displayed in chronological order.    |  [ ]|
+|4      |"Click ""Download PDF"""                   | The report must be legible for printing.               |  [ ]|
+|5      |"Mark report as ""Reviewed"""              | System must timestamp when the doctor saw it.          |  [ ]|
+
+/table
