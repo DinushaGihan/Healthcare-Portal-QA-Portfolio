@@ -27,6 +27,13 @@ TC-02                 Verify successful registration                  1. Open Re
 
 ## Phase 2: Bug Reporting
 
+A standard bug report includes these key fields:
+**Title**: A concise summary of the problem.
+**Severity**: How much it impacts the business (Critical, Major, Minor).
+**Steps to Reproduce**: The exact clicks needed to see the bug.
+**Actual Result**: What currently happens.
+**Expected Result**: What should happen.
+
 ### Bug Report: [BUG-001] White screen on successful registration
 **Severity:** Critical  
 **Priority:** High  
