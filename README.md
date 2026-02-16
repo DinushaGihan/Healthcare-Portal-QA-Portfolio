@@ -16,15 +16,15 @@ This project demonstrates end-to-end Quality Assurance for a Healthcare Patient 
 |Test Case ID,         |Description,                                   |Test Steps,                       |Test Data,                       |Expected Result|
 |:---                  |:---                                           |:---                              |:---                             |:---
 |TC-01                 |Verify password requires special characters,   |1. Open Registration page         |Email: test@care.com             |"System displays error: ""Password must include a special character."|
-                                                                       |2. Enter a valid email.            |Password: Pass1234
-                                                                       |3. Enter password ""Pass1234"" 
-                                                                       (no special char)
-                                                                       |4. Click Register.
+                                                                       |2. Enter a valid email.           |Password: Pass1234
+                                                                       |3. Enter password ""Pass1234""    |
+                                                                       (no special char)                  |
+                                                                       |4. Click Register.                |
 
-|TC-02                 |Verify successful registration                 |1. Open Registration page        |Email: test@care.com             |"System displays as registration is successful"
-                                                                       |2. Enter a valid email.            |Password: Pass1234#
-                                                                       |3. Enter password ""Pass1234#""
-                                                                       |4. Click Register.
+|TC-02                 |Verify successful registration                 |1. Open Registration page         |Email: test@care.com             |"System displays as registration is successful"|
+                                                                       |2. Enter a valid email.           |Password: Pass1234#              |
+                                                                       |3. Enter password ""Pass1234#""   |
+                                                                       |4. Click Register.                |
 
 ## Phase 2: Bug Reporting
 
