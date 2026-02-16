@@ -86,4 +86,9 @@ UAT Script: Doctor Reviews Lab Report
 |4      |"Click ""Download PDF"""                   | The report must be legible for printing.               |  [ ]|
 |5      |"Mark report as ""Reviewed"""              | System must timestamp when the doctor saw it.          |  [ ]|
 
+## Phase 6: Security & Role-Based Access Control
 
+|Test Case ID|Role|Action|Expected Result|
+|:--         |:-- |:--   |:--
+|SEC-01|Head Surgeon|"Click ""Delete Record"" on Patient Profile"|System asks for confirmation and deletes record.|
+|SEC-02|Nurse|"Attempt to access ""Delete"" button"|"""Delete"" button is hidden OR system shows ""Access Denied"" error."|
