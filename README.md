@@ -92,3 +92,44 @@ UAT Script: Doctor Reviews Lab Report
 |:--         |:-- |:--   |:--
 |SEC-01|Head Surgeon|"Click ""Delete Record"" on Patient Profile"|System asks for confirmation and deletes record.|
 |SEC-02|Nurse|"Attempt to access ""Delete"" button"|"""Delete"" button is hidden OR system shows ""Access Denied"" error."|
+
+## Phase 7: Test Design Techniques
+Requirement: The "Quantity" field for ordering pizzas must accept numbers between 1 and 10.
+
+If you were using Boundary Value Analysis, you wouldn't just test the number 5. You would test the "boundaries":
+
+0 (Just below the limit - should fail)
+
+1 (The lower limit - should pass)
+
+10 (The upper limit - should pass)
+
+11 (Just above the limit - should fail)
+
+## Phase 8: Defect Management - Severity vs Priority
+Practical Scenario: QuickBite App( A Food App)
+
+Case 1: High Severity / High Priority
+The Bug: The "Place Order" button crashes the entire app, and no one can buy food.
+Why? It's a total system failure (High Severity) and stops all revenue (High Priority).
+
+Case 2: High Severity / Low Priority
+The Bug: A specific, rare database error occurs only when a user tries to order 500 pizzas at exactly 2:00 AM on a leap year.
+Why? It crashes the system (High Severity), but almost no one will ever encounter it (Low Priority).
+
+Case 3: Low Severity / High Priority
+The Bug: The company's logo on the homepage is spelled "QuikBite" instead of "QuickBite."
+Why? It doesn't break any code (Low Severity), but it looks unprofessional and ruins brand trust (High Priority).
+
+## Phase 9: Quality Metrics & Reporting
+Calculate the Test Coverage:
+=(Number of tests run/ Total number of requirements)*100%
+
+## Phase 10: Modern QA Strategy - Shift Left
+In this project, I apply a **Shift Left** approach to identify defects as early as possible in the SDLC.
+
+**Example Scenario:**
+- **Activity:** Reviewing the design for the "Doctor's Dashboard" before coding begins.
+- **Goal:** Identify missing fields (like 'License Number') or navigation issues during the design phase.
+- **Benefit:** Reduces the cost of fixes and ensures a higher quality product at launch.
+
